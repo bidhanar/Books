@@ -1,0 +1,56 @@
+/* font-family: 'Averia Serif Libre', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Julius Sans One', sans-serif; 
+font-family: 'Montserrat', sans-serif;*/
+
+.colors{
+    background-color: #f5d4bd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #ffe5d9;
+}
+
+.container{
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4em;
+}
+h1{
+    padding : 2em;
+}
+
+
+img{
+    width : 30%;
+    border-radius: 0.1em;
+}
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+    margin-left: 0;
+    color : orange;
+}
+p{
+    font-size: 1em;
+    color : gr;
+}
+
+.container-fluid{
+    width : 69%;
+}
+
+nav{
+    display : flex;
+    flex-direction: row;
+}
+
+#span-name , #span-date{
+    padding: 0px 15px;
+    font-size: 1.5em;
+    color: black;
+}
