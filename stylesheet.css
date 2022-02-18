@@ -1,8 +1,8 @@
 /* font-family: 'Averia Serif Libre', cursive;
 font-family: 'Cormorant Garamond', serif;
 font-family: 'Julius Sans One', sans-serif; 
-font-family: 'Montserrat', sans-serif;*/
-
+font-family: 'Montserrat', sans-serif;
+font-family: 'Redressed', cursive;*/
 
 .props{
     background-color: #f5d4bd;
@@ -23,6 +23,7 @@ font-family: 'Montserrat', sans-serif;*/
 }
 
 body{
+    font-size: 150%;
     background-color: #ffe5d9;
 }
 
@@ -41,7 +42,7 @@ h1{
 
 img{
     width : 30%;
-    min-width: 150px;
+    min-width: 250px;
     border-radius: 0.1em;
 }
 h2{
@@ -50,9 +51,9 @@ h2{
     padding-top: 1em;
     /* padding-bottom: 0.3em; */
     margin-left: 0;
-    color : orange;
+    color : #757e8f;
 }
-p{
+.lead{
     font-size: 1em;
     color : gr;
 }
@@ -67,22 +68,89 @@ p{
     color: black;
 }
 
+ul{
+    list-style-type: none;
+}
+
+.highlight_items_primary{
+    border: 2px solid #3d405b;
+    padding: 0.4em;
+    border-radius: 0.5em;
+    background-color: #e9f5db;
+    font-family: 'Redressed', cursive;
+    font-size: 1.5em;
+    margin-bottom: 20px; 
+}
 
 
 
-@media(max-width: 961px){
+
+
+
+@media(max-width: 1415px){
     .h1_position{
         position: sticky;
-        top: 53px;
+        top: 72px;
         background-color: #ffe5d9;
+        
     }
 }
 
-@media(max-width: 450px){
+@media(max-width: 652px){
+    .h1_position{
+        position: sticky;
+        top: 126px;
+        background-color: #ffe5d9;
+        margin-left: 0;
+    }
+    #section h2{
+        font-size: 2em;
+        margin-left:-18%;
+    }
+    #section p{
+        font-size: 1em;
+        margin-left:-18%;
+    }
+    .highlight_items_primary{
+        font-size: 0.8em;
+    }
+    .quotes{
+        width: 150%;
+        margin-left: -27%;
+        font-size: 1.2em;
+    }
+}
+
+@media(max-width: 390px){
     .h1_position{
         position: sticky;
         top: 90px;
         background-color: #ffe5d9;
+        font-size: 1em;
+    }
+    #span-name , #span-date{
+        font-size: 1em;
+    }
+    #section h2{
+        font-size: 1em;
+        margin-left:-18%;
+    }
+    #section p{
+        font-size: 0.6em;
+        margin-left:-18%;
+    }
+    .highlight_items_primary{
+        font-size: 0.6em;
+    }
+    .quotes{
+        width: 150%;
+        margin-left: -27%;
+        font-size: 1em;
     }
 }
+
+
+
+
+
 
