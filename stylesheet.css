@@ -157,23 +157,54 @@ p::selection{
     }
 }
 
-@media(max-width: 652px){
+@media(max-width: 635px){
     .h1_position{
         position: sticky;
-        top: 126px;
+        top: 54px;
         background-color: #ffe5d9;
+        font-size: 1.3em;
+        padding-left: 15%;
         margin-left: 0;
     }
+    #span-name, #span-date{
+        font-size: 1em;
+    }
     #section h2{
-        font-size: 2em;
+        font-size: 1.3em;
         margin-left:-18%;
     }
     #section p{
-        font-size: 1em;
+        font-size: 0.8em;
         margin-left:-18%;
     }
     .highlight_items_primary , .highlight_items_secondary , .highlight_items_tertiary{
+        font-size: 0.8em;
+        width: 100%;
+    }
+}
+
+@media(max-width: 448px){
+    .h1_position{
+        position: sticky;
+        top: 90px;
+        background-color: #ffe5d9;
+        font-size: 1.3em;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #span-name, #span-date{
         font-size: 1em;
+    }
+    #section h2{
+        font-size: 1.3em;
+        margin-left:-18%;
+    }
+    #section p{
+        font-size: 0.8em;
+        margin-left:-18%;
+    }
+    .highlight_items_primary , .highlight_items_secondary , .highlight_items_tertiary{
+        font-size: 0.8em;
         width: 100%;
     }
 }
